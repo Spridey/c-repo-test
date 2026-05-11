@@ -21,7 +21,11 @@
                     Console.WriteLine("lab 2");
 
                 }
+<<<<<<< HEAD
                 else if (awnser == "lab 3")
+=======
+                else
+>>>>>>> 4006cd6d4e49e4504b4574003045ce628041393b
                 { 
                     Console.WriteLine("lab 3");
                     bool childRunning = true;
