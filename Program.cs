@@ -4,26 +4,38 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
 
             while (true)
             {
+                Console.WriteLine("what lab do you want to see : ");
+
                 string awnser = Console.ReadLine();
                 Console.WriteLine(awnser);
 
-                if (awnser == "lab1")
+                if (awnser == "lab 1")
                 {
                     Console.WriteLine("lab 1");
                 }
-                else if (awnser == "lab2") 
+                else if (awnser == "lab 2") 
                 { 
                     Console.WriteLine("lab 2");
 
                 }
-                Console.WriteLine(awnser == "lab3")
+                else if (awnser == "lab 3")
                 { 
                     Console.WriteLine("lab 3");
+                    bool childRunning = true;
 
+                    while (childRunning == true)
+                    {
+                        Console.WriteLine("why tho");
+                        string child = Console.ReadLine();
+                        if (child == "because")
+                        {
+                            Console.WriteLine("ok son");
+                            childRunning = false;
+                        }
+                    }
                 }
             } 
         }
