@@ -20,7 +20,7 @@
                     Console.WriteLine("lab 2");
 
                 }
-                Console.WriteLine(awnser == "lab3")
+                else
                 { 
                     Console.WriteLine("lab 3");
 
